@@ -1,0 +1,38 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "587516af1efac0b9293f31639c6c31f3"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "26018caf405e628d5a5bf9f0a41217e3",
+      "name": "DB Dog",
+      "components": [
+        {
+          "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "parent_id": "587516af1efac0b9293f31639c6c31f3",
+          "name": "Datadog",
+          "properties": [
+            {
+              "id": "0bd9eb99a718b342382163211c749cb1",
+              "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+              "key": "image",
+              "value": "datadog/datadog",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            }
+          ],
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "class": "Node"
+    }
+  }
+}
