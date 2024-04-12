@@ -1,0 +1,103 @@
+{
+  "add": [
+    null
+  ],
+  "delete": [],
+  "changes": [
+    "21232f297a57a5a743894a0e4a801fc3",
+    null,
+    "5e543256c480ac577d30f76f9120eb74"
+  ],
+  "snapshots": {
+    "21232f297a57a5a743894a0e4a801fc3": {
+      "id": "21232f297a57a5a743894a0e4a801fc3",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "Admininstrator",
+      "custom_name": "admin",
+      "properties": [
+        {
+          "id": "cb6c9b715a721866add7984bc5404548",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "name": "properties",
+          "properties": [
+            {
+              "id": "39e6e93fad157a35615f180b67d19277",
+              "parent_id": "cb6c9b715a721866add7984bc5404548",
+              "extra_properties": {},
+              "key": "attachable",
+              "value": "True",
+              "changes": false,
+              "py_class": "Property"
+            }
+          ],
+          "changed": false,
+          "py_class": "Map"
+        },
+        {
+          "id": "870146b732383a757419166d554aee09",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "name": "labels",
+          "properties": [
+            {
+              "id": "c4ddb30cfa07c1ec17ad7c168f339b58",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "key": "com.example.description",
+              "value": "Financial transaction network",
+              "changes": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "2f48386f86f62d4144ba05770b3492e8",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "key": "com.example.department",
+              "value": "Finance",
+              "changes": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "8067feae4c234f4658ba8b7a2f808039",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "key": "com.example.label-with-empty-value",
+              "value": "",
+              "changes": false,
+              "py_class": "Property"
+            }
+          ],
+          "changed": false,
+          "py_class": "Map"
+        }
+      ],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "5e543256c480ac577d30f76f9120eb74": {
+      "id": "5e543256c480ac577d30f76f9120eb74",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "nn",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "undefined": {
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "OI",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    }
+  }
+}
