@@ -1,0 +1,160 @@
+{
+  "add": [
+    "a6dd10402436aabdb93a46d72968f7e6",
+    "96143e89ac3f3daaaa3620a2e65da8a7",
+    "57fed84b6779a9be4007da0d54bbe82b",
+    "6cceb1e951a056fae5be2e13fb8216fe",
+    "0729a0ec17f1dbc8557c70e83728e1be",
+    "475b197639341ae8c3edb35671eab97a"
+  ],
+  "delete": [],
+  "changes": [
+    "a6dd10402436aabdb93a46d72968f7e6",
+    "96143e89ac3f3daaaa3620a2e65da8a7",
+    "57fed84b6779a9be4007da0d54bbe82b",
+    "6cceb1e951a056fae5be2e13fb8216fe",
+    "968772cd92796f363544793e12113de0",
+    "0729a0ec17f1dbc8557c70e83728e1be",
+    "475b197639341ae8c3edb35671eab97a"
+  ],
+  "snapshots": {
+    "a6dd10402436aabdb93a46d72968f7e6": {
+      "id": "a6dd10402436aabdb93a46d72968f7e6",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "New Node",
+      "components": [
+        {
+          "id": "96143e89ac3f3daaaa3620a2e65da8a7",
+          "parent_id": "a6dd10402436aabdb93a46d72968f7e6",
+          "extra_properties": {},
+          "name": "Little component to test",
+          "properties": [
+            {
+              "id": "57fed84b6779a9be4007da0d54bbe82b",
+              "parent_id": "96143e89ac3f3daaaa3620a2e65da8a7",
+              "extra_properties": {},
+              "key": "type",
+              "value": "good",
+              "changes": false,
+              "py_class": "Property",
+              "changed": true
+            }
+          ],
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "6cceb1e951a056fae5be2e13fb8216fe",
+          "parent_id": "a6dd10402436aabdb93a46d72968f7e6",
+          "extra_properties": {},
+          "name": "Amazon",
+          "artifacts": [
+            {
+              "id": "0729a0ec17f1dbc8557c70e83728e1be",
+              "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+              "extra_properties": {},
+              "name": "art2",
+              "changed": true,
+              "py_class": "Artifact"
+            }
+          ],
+          "ports": [
+            {
+              "id": "475b197639341ae8c3edb35671eab97a",
+              "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+              "extra_properties": {},
+              "name": "555",
+              "changed": true,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": true,
+          "changed": true,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "96143e89ac3f3daaaa3620a2e65da8a7": {
+      "id": "96143e89ac3f3daaaa3620a2e65da8a7",
+      "parent_id": "a6dd10402436aabdb93a46d72968f7e6",
+      "extra_properties": {},
+      "name": "Little component to test",
+      "properties": [
+        {
+          "id": "57fed84b6779a9be4007da0d54bbe82b",
+          "parent_id": "96143e89ac3f3daaaa3620a2e65da8a7",
+          "extra_properties": {},
+          "key": "type",
+          "value": "good",
+          "changes": false,
+          "py_class": "Property",
+          "changed": true
+        }
+      ],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "57fed84b6779a9be4007da0d54bbe82b": {
+      "id": "57fed84b6779a9be4007da0d54bbe82b",
+      "parent_id": "96143e89ac3f3daaaa3620a2e65da8a7",
+      "extra_properties": {},
+      "key": "type",
+      "value": "good",
+      "changes": false,
+      "py_class": "Property",
+      "changed": true
+    },
+    "6cceb1e951a056fae5be2e13fb8216fe": {
+      "id": "6cceb1e951a056fae5be2e13fb8216fe",
+      "parent_id": "a6dd10402436aabdb93a46d72968f7e6",
+      "extra_properties": {},
+      "name": "Amazon",
+      "artifacts": [
+        {
+          "id": "0729a0ec17f1dbc8557c70e83728e1be",
+          "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+          "extra_properties": {},
+          "name": "art2",
+          "changed": true,
+          "py_class": "Artifact"
+        }
+      ],
+      "ports": [
+        {
+          "id": "475b197639341ae8c3edb35671eab97a",
+          "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+          "extra_properties": {},
+          "name": "555",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    },
+    "0729a0ec17f1dbc8557c70e83728e1be": {
+      "id": "0729a0ec17f1dbc8557c70e83728e1be",
+      "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+      "extra_properties": {},
+      "name": "art2",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "475b197639341ae8c3edb35671eab97a": {
+      "id": "475b197639341ae8c3edb35671eab97a",
+      "parent_id": "6cceb1e951a056fae5be2e13fb8216fe",
+      "extra_properties": {},
+      "name": "555",
+      "changed": true,
+      "py_class": "Port"
+    }
+  }
+}
