@@ -1,0 +1,49 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5"
+  ],
+  "snapshots": {
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5": {
+      "id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "FONRTE-tier",
+      "custom_name": "front-end-net",
+      "properties": [
+        {
+          "id": "2de74da930acd8dd9e9806d04dfed83f",
+          "parent_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+          "extra_properties": {},
+          "name": "properties",
+          "properties": [
+            {
+              "id": "de784d9b2aab805a5d8b979281a9e43d",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "key": "external",
+              "value": "True",
+              "changes": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "676b7d052f7a24d7561cb4e7fb6e0725",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "key": "driver",
+              "value": "overlay",
+              "changes": false,
+              "py_class": "Property"
+            }
+          ],
+          "changed": false,
+          "py_class": "Map"
+        }
+      ],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
