@@ -1,0 +1,21 @@
+{
+  "add": [
+    "93ea846fceb0228408c3440726ce3372"
+  ],
+  "delete": [],
+  "changes": [],
+  "snapshots": {
+    "93ea846fceb0228408c3440726ce3372": {
+      "id": "93ea846fceb0228408c3440726ce3372",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "Text",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    }
+  }
+}
