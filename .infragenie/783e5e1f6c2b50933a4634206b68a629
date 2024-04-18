@@ -1,0 +1,22 @@
+{
+  "add": [
+    "f474715abf92b3ee434801780da33b10"
+  ],
+  "delete": [],
+  "changes": [
+    "f474715abf92b3ee434801780da33b10"
+  ],
+  "snapshots": {
+    "f474715abf92b3ee434801780da33b10": {
+      "id": "f474715abf92b3ee434801780da33b10",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "Last attempt",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
