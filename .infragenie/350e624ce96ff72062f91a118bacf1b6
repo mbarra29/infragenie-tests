@@ -1,0 +1,45 @@
+{
+  "add": [
+    "2b7c36f028196eeaebd4a9aa8848e5c0",
+    "d44ecc465e3606ef9330e0d204bd13e1",
+    "1af034f6312cee0ce136eb887c29a928"
+  ],
+  "delete": [],
+  "changes": [
+    "2b7c36f028196eeaebd4a9aa8848e5c0",
+    "d44ecc465e3606ef9330e0d204bd13e1",
+    "1af034f6312cee0ce136eb887c29a928"
+  ],
+  "snapshots": {
+    "2b7c36f028196eeaebd4a9aa8848e5c0": {
+      "id": "2b7c36f028196eeaebd4a9aa8848e5c0",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "nodenew",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "d44ecc465e3606ef9330e0d204bd13e1": {
+      "id": "d44ecc465e3606ef9330e0d204bd13e1",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Testing",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "1af034f6312cee0ce136eb887c29a928": {
+      "id": "1af034f6312cee0ce136eb887c29a928",
+      "parent_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "extra_properties": {},
+      "name": "newComp",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
