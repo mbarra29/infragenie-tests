@@ -1,0 +1,88 @@
+{
+  "changes": [
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 120 520",
+    "ADD ab99f6ced175ca38cf26e464879f1c0f cfb8a5b7ebe0f6a517a5ae436a93d5d8 PROPERTY restart never",
+    "ADD 85612027d6e4e206096697bc5aa5e030 d9c0e52dd15274d51041b489c7cea0ad COMPONENT newComponent",
+    "MOD d9c0e52dd15274d51041b489c7cea0ad NODE POS 420 150",
+    "ADD dce794bd6c2d5a0ba3ab16ee9d3f3924 1 CLOUD newCloud",
+    "MOD dce794bd6c2d5a0ba3ab16ee9d3f3924 CLOUD POS 500 30"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          120,
+          520
+        ]
+      }
+    },
+    "ab99f6ced175ca38cf26e464879f1c0f": {
+      "id": "ab99f6ced175ca38cf26e464879f1c0f",
+      "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "type": "property",
+      "key": "restart",
+      "value": "never",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "cfb8a5b7ebe0f6a517a5ae436a93d5d8": {
+      "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "datadog",
+      "type": "component",
+      "properties": [
+        {
+          "id": "e170ca027a69fb8651c56570ad66d75c",
+          "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "og_key": "image",
+          "og_value": "datadog/datadog",
+          "key": "image",
+          "value": "datadog/datadog",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    },
+    "85612027d6e4e206096697bc5aa5e030": {
+      "id": "85612027d6e4e206096697bc5aa5e030",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "newComponent",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {}
+    },
+    "d9c0e52dd15274d51041b489c7cea0ad": {
+      "id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "parent_id": "1",
+      "name": "grafana",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          420,
+          150
+        ]
+      }
+    },
+    "dce794bd6c2d5a0ba3ab16ee9d3f3924": {
+      "id": "dce794bd6c2d5a0ba3ab16ee9d3f3924",
+      "parent_id": "1",
+      "name": "newCloud",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {
+        "position": [
+          500,
+          30
+        ]
+      }
+    }
+  }
+}
