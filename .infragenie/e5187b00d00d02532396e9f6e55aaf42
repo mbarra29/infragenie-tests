@@ -1,0 +1,24 @@
+{
+  "add": [
+    "84aea25b168ead654f1c330a655e79b9"
+  ],
+  "delete": [
+    "e4f00638b8a10e6994e67af2f832d51c"
+  ],
+  "changes": [
+    "84aea25b168ead654f1c330a655e79b9"
+  ],
+  "snapshots": {
+    "84aea25b168ead654f1c330a655e79b9": {
+      "id": "84aea25b168ead654f1c330a655e79b9",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Test",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
