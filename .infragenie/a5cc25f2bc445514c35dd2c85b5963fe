@@ -1,0 +1,126 @@
+{
+  "changes": [
+    "DEL 5e543256c480ac577d30f76f9120eb74 CLOUD",
+    "MOD d9c0e52dd15274d51041b489c7cea0ad NODE POS 260 210",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 290 450",
+    "ADD 98f6f34f34716b34bb8c3d1f582e023a cfb8a5b7ebe0f6a517a5ae436a93d5d8 PROPERTY allo wd",
+    "MOD c445376a2c59a268ce678211ee4c47c8 PROPERTY KEY_VALUE nono aspirador"
+  ],
+  "snapshots": {
+    "d9c0e52dd15274d51041b489c7cea0ad": {
+      "id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "parent_id": "1",
+      "name": "grafana",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          260,
+          210
+        ]
+      }
+    },
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          290,
+          450
+        ]
+      }
+    },
+    "98f6f34f34716b34bb8c3d1f582e023a": {
+      "id": "98f6f34f34716b34bb8c3d1f582e023a",
+      "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "type": "property",
+      "key": "allo",
+      "value": "wd",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "cfb8a5b7ebe0f6a517a5ae436a93d5d8": {
+      "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "datadog",
+      "type": "component",
+      "properties": [
+        {
+          "id": "e170ca027a69fb8651c56570ad66d75c",
+          "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "og_key": "image",
+          "og_value": "datadog/datadog",
+          "key": "image",
+          "value": "datadog/datadog",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    },
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "nono",
+      "value": "aspirador",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "nono",
+          "og_value": "aspirador",
+          "key": "nono",
+          "value": "aspirador",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    }
+  }
+}
