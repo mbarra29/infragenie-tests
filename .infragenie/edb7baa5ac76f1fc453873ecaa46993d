@@ -1,0 +1,669 @@
+{
+  "snapshot": {
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5": {
+      "id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "parent_id": "1",
+      "name": "front-tier",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "2de74da930acd8dd9e9806d04dfed83f",
+          "parent_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "de784d9b2aab805a5d8b979281a9e43d",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "external",
+              "value": "True",
+              "visible": true
+            },
+            {
+              "id": "676b7d052f7a24d7561cb4e7fb6e0725",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "driver",
+              "value": "overlay",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "front-end-net",
+      "lite_node": true,
+      "extra_properties": {}
+    },
+    "cab64c5af73a02ce213c72c614ccdc8f": {
+      "id": "cab64c5af73a02ce213c72c614ccdc8f",
+      "parent_id": "1",
+      "name": "back-tier",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "c7d53c4960a5d8df256dc45fe29e56c2",
+          "parent_id": "cab64c5af73a02ce213c72c614ccdc8f",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "8297b825a82b7a647a9e3491a6e8911e",
+              "parent_id": "c7d53c4960a5d8df256dc45fe29e56c2",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "internal",
+              "value": "True",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "6f283d173dcd06ea80d6b388c5bf695d",
+          "parent_id": "cab64c5af73a02ce213c72c614ccdc8f",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "labels",
+          "properties": [
+            {
+              "id": "c4ddb30cfa07c1ec17ad7c168f339b58",
+              "parent_id": "6f283d173dcd06ea80d6b388c5bf695d",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.description",
+              "value": "Financial transaction network",
+              "visible": true
+            },
+            {
+              "id": "2f48386f86f62d4144ba05770b3492e8",
+              "parent_id": "6f283d173dcd06ea80d6b388c5bf695d",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.department",
+              "value": "Finance",
+              "visible": true
+            },
+            {
+              "id": "cfe73a31c90c362b0dd2a185aff0f61f",
+              "parent_id": "6f283d173dcd06ea80d6b388c5bf695d",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example-label-with-empty-value",
+              "value": "",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "back-end-net",
+      "lite_node": true,
+      "extra_properties": {}
+    },
+    "21232f297a57a5a743894a0e4a801fc3": {
+      "id": "21232f297a57a5a743894a0e4a801fc3",
+      "parent_id": "1",
+      "name": "admin",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "cb6c9b715a721866add7984bc5404548",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "39e6e93fad157a35615f180b67d19277",
+              "parent_id": "cb6c9b715a721866add7984bc5404548",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "attachable",
+              "value": "True",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "870146b732383a757419166d554aee09",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "labels",
+          "properties": [
+            {
+              "id": "c4ddb30cfa07c1ec17ad7c168f339b58",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.description",
+              "value": "Financial transaction network",
+              "visible": true
+            },
+            {
+              "id": "2f48386f86f62d4144ba05770b3492e8",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.department",
+              "value": "Finance",
+              "visible": true
+            },
+            {
+              "id": "8067feae4c234f4658ba8b7a2f808039",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.label-with-empty-value",
+              "value": "",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "admin",
+      "lite_node": true,
+      "extra_properties": {}
+    },
+    "5e543256c480ac577d30f76f9120eb74": {
+      "id": "5e543256c480ac577d30f76f9120eb74",
+      "parent_id": "1",
+      "name": "undefined",
+      "type": "cloud",
+      "maps": [],
+      "custom_name": "",
+      "lite_node": true,
+      "extra_properties": {}
+    },
+    "e4f00638b8a10e6994e67af2f832d51c": {
+      "id": "e4f00638b8a10e6994e67af2f832d51c",
+      "parent_id": "1",
+      "name": "prometheus",
+      "type": "node",
+      "extra_properties": {}
+    },
+    "b0b6236e8ab49920c48d10f339f1a86a": {
+      "id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "parent_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "name": "prometheus",
+      "type": "component",
+      "properties": [
+        {
+          "id": "70861861e441ac29530725a684554205",
+          "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+          "og_key": "image",
+          "og_value": "prom/prometheus",
+          "key": "image",
+          "value": "prom/prometheus",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "74665c10df31b994344a49e051c986a8",
+          "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+          "og_key": "command",
+          "og_value": "--config.file=/etc/prometheus/prometheus.yml",
+          "key": "command",
+          "value": "--config.file=/etc/prometheus/prometheus.yml",
+          "type": "property",
+          "visible": false,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    },
+    "70861861e441ac29530725a684554205": {
+      "id": "70861861e441ac29530725a684554205",
+      "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "type": "property",
+      "key": "image",
+      "value": "prom/prometheus",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "74665c10df31b994344a49e051c986a8": {
+      "id": "74665c10df31b994344a49e051c986a8",
+      "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "type": "property",
+      "key": "command",
+      "value": "--config.file=/etc/prometheus/prometheus.yml",
+      "visible": false,
+      "extra_properties": {}
+    },
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "restart",
+      "value": "never",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "cfd4d43463526be4db6bd372951d8018": {
+      "id": "cfd4d43463526be4db6bd372951d8018",
+      "parent_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "name": "9090",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "b8365f95fd8d51fff10d734d11af5400": {
+      "id": "b8365f95fd8d51fff10d734d11af5400",
+      "parent_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "name": "/etc/prometheus",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "66ea46159f158592d153eec2b58bfad1": {
+      "id": "66ea46159f158592d153eec2b58bfad1",
+      "parent_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "name": "/prometheus",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "d9c0e52dd15274d51041b489c7cea0ad": {
+      "id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "parent_id": "1",
+      "name": "grafana",
+      "type": "node",
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "never",
+          "key": "restart",
+          "value": "never",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    },
+    "c48bc0db15d0f5292a7c00b19ff998d8": {
+      "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "image",
+      "value": "grafana/grafana",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ef7909136ff326eff61942ef2fc79c40": {
+      "id": "ef7909136ff326eff61942ef2fc79c40",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "environment",
+      "value": "GF_SECURITY_ADMIN_USER=admin",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "7081cd23b854ea758ce2afa03b288a64": {
+      "id": "7081cd23b854ea758ce2afa03b288a64",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "environment",
+      "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "9f18a5ea59196197837bdbfebede13e8": {
+      "id": "9f18a5ea59196197837bdbfebede13e8",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "127.0.0.1:8080",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "e5b1c7fcc1453c77b2f0388027659c6e": {
+      "id": "e5b1c7fcc1453c77b2f0388027659c6e",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "127.0.0.1:8000-9000",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "de82fbad4c9eebe0bd6d2fe66a3fe0aa": {
+      "id": "de82fbad4c9eebe0bd6d2fe66a3fe0aa",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "/etc/grafana/provisioning/datasources",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          430,
+          120
+        ]
+      }
+    },
+    "cfb8a5b7ebe0f6a517a5ae436a93d5d8": {
+      "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "datadog",
+      "type": "component",
+      "properties": [
+        {
+          "id": "e170ca027a69fb8651c56570ad66d75c",
+          "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "og_key": "image",
+          "og_value": "datadog/datadog",
+          "key": "image",
+          "value": "datadog/datadog",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "08ba1273acc67f7118cda370cb126173",
+          "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "og_key": "",
+          "og_value": "",
+          "key": "oi",
+          "value": "dwd",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {}
+    },
+    "e170ca027a69fb8651c56570ad66d75c": {
+      "id": "e170ca027a69fb8651c56570ad66d75c",
+      "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "type": "property",
+      "key": "image",
+      "value": "datadog/datadog",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "267de027b65a807d2138ee534426efa5": {
+      "id": "267de027b65a807d2138ee534426efa5",
+      "parent_id": "1",
+      "name": "9090",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "dba3f4d0bb5aa6fcfa18da2c1f7a9775": {
+      "id": "dba3f4d0bb5aa6fcfa18da2c1f7a9775",
+      "parent_id": "1",
+      "name": "80",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "1624c420083928ef3e240dd88f2e52f0": {
+      "id": "1624c420083928ef3e240dd88f2e52f0",
+      "parent_id": "1",
+      "name": "8000",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "2a4ddbecb762532586835d0f37d85eaf": {
+      "id": "2a4ddbecb762532586835d0f37d85eaf",
+      "parent_id": "1",
+      "name": "./prometheus",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "a1448c8b5db83ada398e734ef1d3277c": {
+      "id": "a1448c8b5db83ada398e734ef1d3277c",
+      "parent_id": "1",
+      "name": "prom_data",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "eec695b1c6be435e7982afe506db7e49": {
+      "id": "eec695b1c6be435e7982afe506db7e49",
+      "parent_id": "1",
+      "name": "./grafana",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "08ba1273acc67f7118cda370cb126173": {
+      "id": "08ba1273acc67f7118cda370cb126173",
+      "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "type": "property",
+      "key": "oi",
+      "value": "dwd",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "5fbe1d59e829a5bfcaa3db5a3806f83c": {
+      "id": "5fbe1d59e829a5bfcaa3db5a3806f83c",
+      "parent_id": "1",
+      "from_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "to_id": "cfd4d43463526be4db6bd372951d8018",
+      "name": "From: Prometheus <Component> \n To: 9090 <Port> ",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "3fe5ae28ccec4d2fd7e9799949dc106c": {
+      "id": "3fe5ae28ccec4d2fd7e9799949dc106c",
+      "parent_id": "1",
+      "from_id": "cfd4d43463526be4db6bd372951d8018",
+      "to_id": "267de027b65a807d2138ee534426efa5",
+      "name": "From: 9090 <Port> \n To: 9090 <Port> ",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "6d319aeb79b8f63254c2c045ca345b8e": {
+      "id": "6d319aeb79b8f63254c2c045ca345b8e",
+      "parent_id": "1",
+      "from_id": "b8365f95fd8d51fff10d734d11af5400",
+      "to_id": "2a4ddbecb762532586835d0f37d85eaf",
+      "name": "ro",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "b9584200e825f38e62abc37d148d9e44": {
+      "id": "b9584200e825f38e62abc37d148d9e44",
+      "parent_id": "1",
+      "from_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "to_id": "b8365f95fd8d51fff10d734d11af5400",
+      "name": "use",
+      "type": "connection",
+      "connector_type": "DASHED_ARROW",
+      "extra_properties": {}
+    },
+    "1beed73bb2166da8f77e6c427704bec5": {
+      "id": "1beed73bb2166da8f77e6c427704bec5",
+      "parent_id": "1",
+      "from_id": "66ea46159f158592d153eec2b58bfad1",
+      "to_id": "a1448c8b5db83ada398e734ef1d3277c",
+      "name": "rw",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "8408bcaf8c4f84cec2ae6d5b935a37f0": {
+      "id": "8408bcaf8c4f84cec2ae6d5b935a37f0",
+      "parent_id": "1",
+      "from_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "to_id": "66ea46159f158592d153eec2b58bfad1",
+      "name": "use",
+      "type": "connection",
+      "connector_type": "DASHED_ARROW",
+      "extra_properties": {}
+    },
+    "e00de214b9499ef45a5d63820599b004": {
+      "id": "e00de214b9499ef45a5d63820599b004",
+      "parent_id": "1",
+      "from_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "to_id": "cab64c5af73a02ce213c72c614ccdc8f",
+      "name": "alias:['database']",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "ba1e1d190fe55f3791df3df9ee51b13f": {
+      "id": "ba1e1d190fe55f3791df3df9ee51b13f",
+      "parent_id": "1",
+      "from_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "to_id": "21232f297a57a5a743894a0e4a801fc3",
+      "name": "alias:['mysql']",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "0f3b6d0cf652579a4851765d09e50a32": {
+      "id": "0f3b6d0cf652579a4851765d09e50a32",
+      "parent_id": "1",
+      "from_id": "e4f00638b8a10e6994e67af2f832d51c",
+      "to_id": "5e543256c480ac577d30f76f9120eb74",
+      "name": "alias:['unknown']",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "b30e928abd36d2c83c392e566eb9d196": {
+      "id": "b30e928abd36d2c83c392e566eb9d196",
+      "parent_id": "1",
+      "from_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "to_id": "9f18a5ea59196197837bdbfebede13e8",
+      "name": "From: Grafana <Component> \n To: 127.0.0.1:8080 <Port> ",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "50d594de94ef2c1c216ac679b9600d0b": {
+      "id": "50d594de94ef2c1c216ac679b9600d0b",
+      "parent_id": "1",
+      "from_id": "9f18a5ea59196197837bdbfebede13e8",
+      "to_id": "dba3f4d0bb5aa6fcfa18da2c1f7a9775",
+      "name": "tcp",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "ee967977334fcaa1fe38cc9d9b1a7012": {
+      "id": "ee967977334fcaa1fe38cc9d9b1a7012",
+      "parent_id": "1",
+      "from_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "to_id": "e5b1c7fcc1453c77b2f0388027659c6e",
+      "name": "From: Grafana <Component> \n To: 127.0.0.1:8000-9000 <Port> ",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "b6f47c71013650625fd65ce61adcb5b2": {
+      "id": "b6f47c71013650625fd65ce61adcb5b2",
+      "parent_id": "1",
+      "from_id": "e5b1c7fcc1453c77b2f0388027659c6e",
+      "to_id": "1624c420083928ef3e240dd88f2e52f0",
+      "name": "tcp",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "e280bce0be7fb5405f72b767e7d039a8": {
+      "id": "e280bce0be7fb5405f72b767e7d039a8",
+      "parent_id": "1",
+      "from_id": "de82fbad4c9eebe0bd6d2fe66a3fe0aa",
+      "to_id": "eec695b1c6be435e7982afe506db7e49",
+      "name": "ro",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "e2effa999418999a4c9e4774756705c7": {
+      "id": "e2effa999418999a4c9e4774756705c7",
+      "parent_id": "1",
+      "from_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "to_id": "de82fbad4c9eebe0bd6d2fe66a3fe0aa",
+      "name": "use",
+      "type": "connection",
+      "connector_type": "DASHED_ARROW",
+      "extra_properties": {}
+    },
+    "e8c6f16535af2151fe3efd2b9910b0b2": {
+      "id": "e8c6f16535af2151fe3efd2b9910b0b2",
+      "parent_id": "1",
+      "from_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "to_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "name": "alias:['ui']",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "1bf7dd494a96ef2170e0a935d57f4acf": {
+      "id": "1bf7dd494a96ef2170e0a935d57f4acf",
+      "parent_id": "1",
+      "from_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "to_id": "cab64c5af73a02ce213c72c614ccdc8f",
+      "name": "From: Grafana <Node> \n To: Back-tier <Cloud> ",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    }
+  },
+  "changes": [
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 430 120",
+    "ADD 08ba1273acc67f7118cda370cb126173 cfb8a5b7ebe0f6a517a5ae436a93d5d8 PROPERTY oi dwd",
+    "MOD c445376a2c59a268ce678211ee4c47c8 PROPERTY KEY_VALUE restart never"
+  ]
+}
