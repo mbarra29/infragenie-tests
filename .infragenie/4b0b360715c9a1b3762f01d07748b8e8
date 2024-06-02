@@ -683,7 +683,7 @@
     "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 550 250",
     "MOD cfb8a5b7ebe0f6a517a5ae436a93d5d8 COMPONENT PROPS image datadog/datadog woof testing ",
     "MOD ca625ae68e4d4a58f9ba859ff3420557 COMPONENT PROPS image grafana/grafana restart unless-stopped environment GF_SECURITY_ADMIN_PASSWORD=grafana ",
-    "MOD b0b6236e8ab49920c48d10f339f1a86a COMPONENT PROPS image prom/prometheus command run this restart unless-stopped ",
+    "MOD b0b6236e8ab49920c48d10f339f1a86a COMPONENT PROPS image prom/prometheus command run-this restart unless-stopped ",
     "MOD d9c0e52dd15274d51041b489c7cea0ad NODE POS 270 340",
     "MOD 1624c420083928ef3e240dd88f2e52f0 PORT POS 550 500",
     "MOD dba3f4d0bb5aa6fcfa18da2c1f7a9775 PORT POS 240 510",
