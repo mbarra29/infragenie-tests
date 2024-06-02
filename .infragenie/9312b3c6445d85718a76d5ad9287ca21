@@ -1,0 +1,81 @@
+{
+  "add": [
+    "88af375fb30022167a304dae1fc4167d",
+    "a4c7b81242d013184ed83e84e548d770"
+  ],
+  "delete": [
+    "5e543256c480ac577d30f76f9120eb74"
+  ],
+  "changes": [
+    "587516af1efac0b9293f31639c6c31f3",
+    "88af375fb30022167a304dae1fc4167d",
+    "a4c7b81242d013184ed83e84e548d770"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "woof",
+      "components": [
+        {
+          "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "parent_id": "587516af1efac0b9293f31639c6c31f3",
+          "extra_properties": {},
+          "name": "Datadog",
+          "properties": [
+            {
+              "id": "e170ca027a69fb8651c56570ad66d75c",
+              "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+              "extra_properties": {},
+              "key": "image",
+              "value": "datadog/datadog",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "88af375fb30022167a304dae1fc4167d",
+              "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+              "extra_properties": {},
+              "key": "testing",
+              "value": "newProp",
+              "visible": true,
+              "changed": true,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "88af375fb30022167a304dae1fc4167d": {
+      "id": "88af375fb30022167a304dae1fc4167d",
+      "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+      "extra_properties": {},
+      "key": "testing",
+      "value": "newProp",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "a4c7b81242d013184ed83e84e548d770": {
+      "id": "a4c7b81242d013184ed83e84e548d770",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "TestCloud",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
