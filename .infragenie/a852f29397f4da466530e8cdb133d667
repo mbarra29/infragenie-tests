@@ -1,0 +1,57 @@
+{
+  "add": [
+    "a4e7447ef427a9f089a28165c4eb84bd"
+  ],
+  "delete": [],
+  "changes": [
+    "587516af1efac0b9293f31639c6c31f3",
+    "a4e7447ef427a9f089a28165c4eb84bd"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Woof",
+      "components": [
+        {
+          "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "parent_id": "587516af1efac0b9293f31639c6c31f3",
+          "extra_properties": {},
+          "name": "Datadog",
+          "properties": [
+            {
+              "id": "e170ca027a69fb8651c56570ad66d75c",
+              "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+              "extra_properties": {},
+              "key": "image",
+              "value": "datadog/datadog",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "a4e7447ef427a9f089a28165c4eb84bd": {
+      "id": "a4e7447ef427a9f089a28165c4eb84bd",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "TayTay",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
