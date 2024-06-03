@@ -1,0 +1,52 @@
+{
+  "changes": [
+    "ADD 452b7a4ef53e0c55ce91e3b075103dcd 1 CONNECTION",
+    "ADD c5324c51a6ff5756d4db144d6f0bf607 1 NODE",
+    "MOD c5324c51a6ff5756d4db144d6f0bf607 NODE POS 130 500",
+    "MOD c5324c51a6ff5756d4db144d6f0bf607 NODE POS 150 520",
+    "ADD e0b24f5a4db87bf2dab90d5cfe5db16a c5324c51a6ff5756d4db144d6f0bf607 COMPONENT",
+    "MOD e0b24f5a4db87bf2dab90d5cfe5db16a COMPONENT POS 10 30",
+    "MOD c5324c51a6ff5756d4db144d6f0bf607 NODE POS 500 90",
+    "MOD 452b7a4ef53e0c55ce91e3b075103dcd CONNECTION SRC_CHANGE c5324c51a6ff5756d4db144d6f0bf607",
+    "MOD 452b7a4ef53e0c55ce91e3b075103dcd CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD 452b7a4ef53e0c55ce91e3b075103dcd CONNECTION NAME ",
+    "DEL 21232f297a57a5a743894a0e4a801fc3 CLOUD"
+  ],
+  "snapshots": {
+    "452b7a4ef53e0c55ce91e3b075103dcd": {
+      "id": "452b7a4ef53e0c55ce91e3b075103dcd",
+      "parent_id": "1",
+      "from_id": "c5324c51a6ff5756d4db144d6f0bf607",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "c5324c51a6ff5756d4db144d6f0bf607": {
+      "id": "c5324c51a6ff5756d4db144d6f0bf607",
+      "parent_id": "1",
+      "name": "Golden",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          500,
+          90
+        ]
+      }
+    },
+    "e0b24f5a4db87bf2dab90d5cfe5db16a": {
+      "id": "e0b24f5a4db87bf2dab90d5cfe5db16a",
+      "parent_id": "c5324c51a6ff5756d4db144d6f0bf607",
+      "name": "Retriever",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {
+        "position": [
+          10,
+          30
+        ]
+      }
+    }
+  }
+}
