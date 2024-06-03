@@ -1,0 +1,57 @@
+{
+  "changes": [
+    "DEL cfb8a5b7ebe0f6a517a5ae436a93d5d8 COMPONENT",
+    "DEL e170ca027a69fb8651c56570ad66d75c PROPERTY",
+    "DEL d9c0e52dd15274d51041b489c7cea0ad NODE",
+    "DEL ca625ae68e4d4a58f9ba859ff3420557 COMPONENT",
+    "DEL 9f18a5ea59196197837bdbfebede13e8 PORT",
+    "DEL e5b1c7fcc1453c77b2f0388027659c6e PORT",
+    "DEL de82fbad4c9eebe0bd6d2fe66a3fe0aa ARTIFACT",
+    "DEL c48bc0db15d0f5292a7c00b19ff998d8 PROPERTY",
+    "DEL c445376a2c59a268ce678211ee4c47c8 PROPERTY",
+    "DEL ef7909136ff326eff61942ef2fc79c40 PROPERTY",
+    "DEL 7081cd23b854ea758ce2afa03b288a64 PROPERTY",
+    "DEL b30e928abd36d2c83c392e566eb9d196 CONNECTION",
+    "DEL ee967977334fcaa1fe38cc9d9b1a7012 CONNECTION",
+    "DEL e2effa999418999a4c9e4774756705c7 CONNECTION",
+    "DEL b30e928abd36d2c83c392e566eb9d196 CONNECTION",
+    "DEL 50d594de94ef2c1c216ac679b9600d0b CONNECTION",
+    "DEL ee967977334fcaa1fe38cc9d9b1a7012 CONNECTION",
+    "DEL b6f47c71013650625fd65ce61adcb5b2 CONNECTION",
+    "DEL e2effa999418999a4c9e4774756705c7 CONNECTION",
+    "DEL e280bce0be7fb5405f72b767e7d039a8 CONNECTION",
+    "DEL e8c6f16535af2151fe3efd2b9910b0b2 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "DEL 5e543256c480ac577d30f76f9120eb74 CLOUD",
+    "DEL 0f3b6d0cf652579a4851765d09e50a32 CONNECTION",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 260 210",
+    "ADD e42e35e7ed749a046ee40124fb51a3c1 587516af1efac0b9293f31639c6c31f3 PORT",
+    "MOD e42e35e7ed749a046ee40124fb51a3c1 PORT POS 90 70"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          260,
+          210
+        ]
+      }
+    },
+    "e42e35e7ed749a046ee40124fb51a3c1": {
+      "id": "e42e35e7ed749a046ee40124fb51a3c1",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "80808",
+      "type": "port",
+      "extra_properties": {
+        "position": [
+          90,
+          70
+        ]
+      }
+    }
+  }
+}
