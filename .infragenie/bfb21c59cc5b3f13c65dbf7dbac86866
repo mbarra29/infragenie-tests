@@ -1,0 +1,110 @@
+{
+  "changes": [
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 510 230",
+    "ADD 10188e2e4df47d0cbd6d2d7eda692e09 1 NODE",
+    "MOD 10188e2e4df47d0cbd6d2d7eda692e09 NODE POS 510 40",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 510 280",
+    "ADD e153aeea8270567da9e41efd5696f467 10188e2e4df47d0cbd6d2d7eda692e09 COMPONENT",
+    "MOD 10188e2e4df47d0cbd6d2d7eda692e09 NODE POS 510 30",
+    "MOD e153aeea8270567da9e41efd5696f467 COMPONENT POS 10 30",
+    "ADD 007842a88ebbfe6c41fa13110020baf6 e153aeea8270567da9e41efd5696f467 PROPERTY",
+    "ADD 75fec29a7f2c3b85efe1580c58f69ab7 1 CONNECTION",
+    "MOD 75fec29a7f2c3b85efe1580c58f69ab7 CONNECTION SRC_CHANGE 10188e2e4df47d0cbd6d2d7eda692e09",
+    "MOD 75fec29a7f2c3b85efe1580c58f69ab7 CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "DEL 21232f297a57a5a743894a0e4a801fc3 CLOUD",
+    "DEL ba1e1d190fe55f3791df3df9ee51b13f CONNECTION",
+    "DEL d9c0e52dd15274d51041b489c7cea0ad NODE",
+    "DEL ca625ae68e4d4a58f9ba859ff3420557 COMPONENT",
+    "DEL 9f18a5ea59196197837bdbfebede13e8 PORT",
+    "DEL e5b1c7fcc1453c77b2f0388027659c6e PORT",
+    "DEL de82fbad4c9eebe0bd6d2fe66a3fe0aa ARTIFACT",
+    "DEL c48bc0db15d0f5292a7c00b19ff998d8 PROPERTY",
+    "DEL c445376a2c59a268ce678211ee4c47c8 PROPERTY",
+    "DEL ef7909136ff326eff61942ef2fc79c40 PROPERTY",
+    "DEL 7081cd23b854ea758ce2afa03b288a64 PROPERTY",
+    "DEL b30e928abd36d2c83c392e566eb9d196 CONNECTION",
+    "DEL ee967977334fcaa1fe38cc9d9b1a7012 CONNECTION",
+    "DEL e2effa999418999a4c9e4774756705c7 CONNECTION",
+    "DEL b30e928abd36d2c83c392e566eb9d196 CONNECTION",
+    "DEL 50d594de94ef2c1c216ac679b9600d0b CONNECTION",
+    "DEL ee967977334fcaa1fe38cc9d9b1a7012 CONNECTION",
+    "DEL b6f47c71013650625fd65ce61adcb5b2 CONNECTION",
+    "DEL e2effa999418999a4c9e4774756705c7 CONNECTION",
+    "DEL e280bce0be7fb5405f72b767e7d039a8 CONNECTION",
+    "DEL e8c6f16535af2151fe3efd2b9910b0b2 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "MOD eec695b1c6be435e7982afe506db7e49 ARTIFACT POS 240 140",
+    "DEL eec695b1c6be435e7982afe506db7e49 ARTIFACT",
+    "DEL e280bce0be7fb5405f72b767e7d039a8 CONNECTION"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          510,
+          280
+        ]
+      }
+    },
+    "10188e2e4df47d0cbd6d2d7eda692e09": {
+      "id": "10188e2e4df47d0cbd6d2d7eda692e09",
+      "parent_id": "1",
+      "name": "Golden",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          510,
+          30
+        ]
+      }
+    },
+    "e153aeea8270567da9e41efd5696f467": {
+      "id": "e153aeea8270567da9e41efd5696f467",
+      "parent_id": "10188e2e4df47d0cbd6d2d7eda692e09",
+      "name": "Retriever",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {
+        "position": [
+          10,
+          30
+        ]
+      }
+    },
+    "007842a88ebbfe6c41fa13110020baf6": {
+      "id": "007842a88ebbfe6c41fa13110020baf6",
+      "parent_id": "e153aeea8270567da9e41efd5696f467",
+      "type": "property",
+      "key": "points",
+      "value": "10/10",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "75fec29a7f2c3b85efe1580c58f69ab7": {
+      "id": "75fec29a7f2c3b85efe1580c58f69ab7",
+      "parent_id": "1",
+      "from_id": "10188e2e4df47d0cbd6d2d7eda692e09",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "\n<SrcNotDef> \n<TgtNotDef>",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "eec695b1c6be435e7982afe506db7e49": {
+      "id": "eec695b1c6be435e7982afe506db7e49",
+      "parent_id": "1",
+      "name": "./grafana",
+      "type": "artifact",
+      "extra_properties": {
+        "position": [
+          240,
+          140
+        ]
+      }
+    }
+  }
+}
