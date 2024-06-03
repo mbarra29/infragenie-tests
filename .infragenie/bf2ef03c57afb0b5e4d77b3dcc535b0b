@@ -1,0 +1,44 @@
+{
+  "changes": [
+    "MOD 75fec29a7f2c3b85efe1580c58f69ab7 CONNECTION NAME ",
+    "MOD 5e543256c480ac577d30f76f9120eb74 CLOUD POS 270 150",
+    "ADD 56704545b0a1be53f7a15c252f7b73e3 1 CONNECTION"
+  ],
+  "snapshots": {
+    "75fec29a7f2c3b85efe1580c58f69ab7": {
+      "id": "75fec29a7f2c3b85efe1580c58f69ab7",
+      "parent_id": "1",
+      "from_id": "10188e2e4df47d0cbd6d2d7eda692e09",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "5e543256c480ac577d30f76f9120eb74": {
+      "id": "5e543256c480ac577d30f76f9120eb74",
+      "parent_id": "1",
+      "name": "undefined",
+      "type": "cloud",
+      "maps": [],
+      "custom_name": "",
+      "lite_node": true,
+      "extra_properties": {
+        "position": [
+          270,
+          150
+        ]
+      }
+    },
+    "56704545b0a1be53f7a15c252f7b73e3": {
+      "id": "56704545b0a1be53f7a15c252f7b73e3",
+      "parent_id": "1",
+      "from_id": "null",
+      "to_id": "null",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    }
+  }
+}
