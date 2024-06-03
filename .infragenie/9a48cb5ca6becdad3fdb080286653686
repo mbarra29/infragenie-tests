@@ -1,0 +1,120 @@
+{
+  "changes": [
+    "ADD 71691ce93a5ec063655e8b57423476ea 1 PORT",
+    "ADD 99768898d1abf29e75875d79d53ab68a 1 CLOUD",
+    "ADD 3a38f080166583b15b164306d45c1019 1 ARTIFACT",
+    "ADD 69d026c018d2920ee8094efd6b19dc25 1 COMPONENT",
+    "ADD 14b32958b4144f0ca12c89e5444c5132 1 NODE",
+    "ADD 85d8af4359a6182eeb99d8c32de090bf 1 PACKAGE",
+    "DEL 14b32958b4144f0ca12c89e5444c5132 NODE",
+    "DEL 69d026c018d2920ee8094efd6b19dc25 COMPONENT",
+    "DEL 85d8af4359a6182eeb99d8c32de090bf PACKAGE",
+    "DEL 71691ce93a5ec063655e8b57423476ea PORT",
+    "DEL 99768898d1abf29e75875d79d53ab68a CLOUD",
+    "DEL 3a38f080166583b15b164306d45c1019 ARTIFACT",
+    "DEL e42e35e7ed749a046ee40124fb51a3c1 PORT",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 320 130",
+    "ADD f1b512aa9ca4d0f0d5dbb49eea6bd459 587516af1efac0b9293f31639c6c31f3 COMPONENT",
+    "MOD f1b512aa9ca4d0f0d5dbb49eea6bd459 COMPONENT POS 10 40",
+    "ADD aa8042819c483420d2e9e9dcb95da620 587516af1efac0b9293f31639c6c31f3 ARTIFACT",
+    "ADD 7254935cdbbc9ca7265e8fa8c1fbad7a 587516af1efac0b9293f31639c6c31f3 PACKAGE",
+    "ADD d1c86d123819786ecf986e9a59ffb002 587516af1efac0b9293f31639c6c31f3 PORT",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 320 150"
+  ],
+  "snapshots": {
+    "71691ce93a5ec063655e8b57423476ea": {
+      "id": "71691ce93a5ec063655e8b57423476ea",
+      "parent_id": "1",
+      "name": "newPort",
+      "type": "port",
+      "extra_properties": {}
+    },
+    "99768898d1abf29e75875d79d53ab68a": {
+      "id": "99768898d1abf29e75875d79d53ab68a",
+      "parent_id": "1",
+      "name": "newCloud",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {}
+    },
+    "3a38f080166583b15b164306d45c1019": {
+      "id": "3a38f080166583b15b164306d45c1019",
+      "parent_id": "1",
+      "name": "newArtifact",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "69d026c018d2920ee8094efd6b19dc25": {
+      "id": "69d026c018d2920ee8094efd6b19dc25",
+      "parent_id": "1",
+      "name": "newComponent",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {}
+    },
+    "14b32958b4144f0ca12c89e5444c5132": {
+      "id": "14b32958b4144f0ca12c89e5444c5132",
+      "parent_id": "1",
+      "name": "newNode",
+      "type": "node",
+      "extra_properties": {}
+    },
+    "85d8af4359a6182eeb99d8c32de090bf": {
+      "id": "85d8af4359a6182eeb99d8c32de090bf",
+      "parent_id": "1",
+      "name": "newPackage",
+      "type": "package",
+      "full_representation": true,
+      "extra_properties": {}
+    },
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "datadog",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          320,
+          150
+        ]
+      }
+    },
+    "f1b512aa9ca4d0f0d5dbb49eea6bd459": {
+      "id": "f1b512aa9ca4d0f0d5dbb49eea6bd459",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "newComponent",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {
+        "position": [
+          10,
+          40
+        ]
+      }
+    },
+    "aa8042819c483420d2e9e9dcb95da620": {
+      "id": "aa8042819c483420d2e9e9dcb95da620",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "newArtifact",
+      "type": "artifact",
+      "extra_properties": {}
+    },
+    "7254935cdbbc9ca7265e8fa8c1fbad7a": {
+      "id": "7254935cdbbc9ca7265e8fa8c1fbad7a",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "newPackage",
+      "type": "package",
+      "full_representation": true,
+      "extra_properties": {}
+    },
+    "d1c86d123819786ecf986e9a59ffb002": {
+      "id": "d1c86d123819786ecf986e9a59ffb002",
+      "parent_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "newPort",
+      "type": "port",
+      "extra_properties": {}
+    }
+  }
+}
