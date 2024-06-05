@@ -1,0 +1,20 @@
+{
+  "add": [
+    "3b6b9f10856068f62a0a31c865b2e770"
+  ],
+  "delete": [],
+  "changes": [],
+  "snapshots": {
+    "3b6b9f10856068f62a0a31c865b2e770": {
+      "id": "3b6b9f10856068f62a0a31c865b2e770",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "text",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
