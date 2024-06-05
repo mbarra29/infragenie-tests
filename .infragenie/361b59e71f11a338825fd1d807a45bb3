@@ -1,0 +1,24 @@
+{
+  "changes": [
+    "ADD 30889974991985a0dbe2d4c876257987 1 CLOUD",
+    "MOD 30889974991985a0dbe2d4c876257987 CLOUD POS 260 170",
+    "DEL 30889974991985a0dbe2d4c876257987 CLOUD"
+  ],
+  "snapshots": {
+    "30889974991985a0dbe2d4c876257987": {
+      "id": "30889974991985a0dbe2d4c876257987",
+      "parent_id": "1",
+      "name": "newCloud",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {
+        "position": [
+          260,
+          170
+        ]
+      }
+    }
+  }
+}
