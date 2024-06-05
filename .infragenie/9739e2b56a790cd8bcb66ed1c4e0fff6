@@ -1,0 +1,30 @@
+{
+  "changes": [
+    "MOD e4f00638b8a10e6994e67af2f832d51c NODE NAME PROMET",
+    "DEL b0b6236e8ab49920c48d10f339f1a86a COMPONENT",
+    "DEL 70861861e441ac29530725a684554205 PROPERTY",
+    "DEL 74665c10df31b994344a49e051c986a8 PROPERTY",
+    "DEL c445376a2c59a268ce678211ee4c47c8 PROPERTY",
+    "DEL 5fbe1d59e829a5bfcaa3db5a3806f83c CONNECTION",
+    "DEL b9584200e825f38e62abc37d148d9e44 CONNECTION",
+    "DEL 8408bcaf8c4f84cec2ae6d5b935a37f0 CONNECTION"
+  ],
+  "snapshots": {
+    "e4f00638b8a10e6994e67af2f832d51c": {
+      "id": "e4f00638b8a10e6994e67af2f832d51c",
+      "parent_id": "1",
+      "name": "PROMET",
+      "type": "node",
+      "extra_properties": {
+        "size": [
+          300,
+          290
+        ],
+        "position": [
+          10,
+          250
+        ]
+      }
+    }
+  }
+}
