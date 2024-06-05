@@ -1,0 +1,23 @@
+{
+  "add": [
+    "d4aa2b99bb8b1041dc68d71035bf13dc"
+  ],
+  "delete": [],
+  "changes": [
+    "d4aa2b99bb8b1041dc68d71035bf13dc"
+  ],
+  "snapshots": {
+    "d4aa2b99bb8b1041dc68d71035bf13dc": {
+      "id": "d4aa2b99bb8b1041dc68d71035bf13dc",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "testNode",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    }
+  }
+}
