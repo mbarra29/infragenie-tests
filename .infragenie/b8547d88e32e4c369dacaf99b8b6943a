@@ -1,0 +1,40 @@
+{
+  "changes": [
+    "ADD a4878459f3b96e206973609e74d6be82 1 NODE",
+    "MOD a4878459f3b96e206973609e74d6be82 NODE POS 290 580",
+    "ADD f9ddc45a126d60b9d78ba3e9075a561f 1 CONNECTION",
+    "MOD f9ddc45a126d60b9d78ba3e9075a561f CONNECTION SRC_CHANGE a4878459f3b96e206973609e74d6be82",
+    "MOD f9ddc45a126d60b9d78ba3e9075a561f CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "DEL a4878459f3b96e206973609e74d6be82 NODE",
+    "DEL f9ddc45a126d60b9d78ba3e9075a561f CONNECTION",
+    "DEL d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD",
+    "DEL e8c6f16535af2151fe3efd2b9910b0b2 CONNECTION",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION"
+  ],
+  "snapshots": {
+    "a4878459f3b96e206973609e74d6be82": {
+      "id": "a4878459f3b96e206973609e74d6be82",
+      "parent_id": "1",
+      "name": "example",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          290,
+          580
+        ]
+      }
+    },
+    "f9ddc45a126d60b9d78ba3e9075a561f": {
+      "id": "f9ddc45a126d60b9d78ba3e9075a561f",
+      "parent_id": "1",
+      "from_id": "a4878459f3b96e206973609e74d6be82",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    }
+  }
+}
