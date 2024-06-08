@@ -1,5 +1,5 @@
 
 ### Infrastructure model
-- [diagramTODO](.infragenie/infrastructure_model.svg)
+- [Visual Editor Diagram](.infragenie/infrastructure_model.svg)
 
 ---
