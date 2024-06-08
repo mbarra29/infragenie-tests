@@ -1,0 +1,24 @@
+{
+  "changes": [
+    "MOD d9c0e52dd15274d51041b489c7cea0ad NODE POS 420 210",
+    "MOD d9c0e52dd15274d51041b489c7cea0ad NODE POS 410 300"
+  ],
+  "snapshots": {
+    "d9c0e52dd15274d51041b489c7cea0ad": {
+      "id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "parent_id": "1",
+      "name": "grafana",
+      "type": "node",
+      "extra_properties": {
+        "size": [
+          340,
+          290
+        ],
+        "position": [
+          410,
+          300
+        ]
+      }
+    }
+  }
+}
