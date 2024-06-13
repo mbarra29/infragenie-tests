@@ -1,0 +1,79 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+    "b30e928abd36d2c83c392e566eb9d196",
+    "b9584200e825f38e62abc37d148d9e44"
+  ],
+  "snapshots": {
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5": {
+      "id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "fFornt-tier",
+      "custom_name": "front-end-net",
+      "properties": [
+        {
+          "id": "2de74da930acd8dd9e9806d04dfed83f",
+          "parent_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+          "extra_properties": {},
+          "name": "properties",
+          "properties": [
+            {
+              "id": "de784d9b2aab805a5d8b979281a9e43d",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "key": "external",
+              "value": "True",
+              "visible": true,
+              "changes": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "676b7d052f7a24d7561cb4e7fb6e0725",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "key": "driver",
+              "value": "overlay",
+              "visible": true,
+              "changes": false,
+              "py_class": "Property"
+            }
+          ],
+          "changed": false,
+          "py_class": "Map"
+        }
+      ],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "b30e928abd36d2c83c392e566eb9d196": {
+      "id": "b30e928abd36d2c83c392e566eb9d196",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-u-"
+      },
+      "name": "",
+      "from_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "to_id": "9f18a5ea59196197837bdbfebede13e8",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    },
+    "b9584200e825f38e62abc37d148d9e44": {
+      "id": "b9584200e825f38e62abc37d148d9e44",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "..u..>"
+      },
+      "name": "use",
+      "from_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "to_id": "b8365f95fd8d51fff10d734d11af5400",
+      "connector_type": "DASHED_ARROW",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
