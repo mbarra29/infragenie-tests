@@ -1,0 +1,22 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "b6f47c71013650625fd65ce61adcb5b2"
+  ],
+  "snapshots": {
+    "b6f47c71013650625fd65ce61adcb5b2": {
+      "id": "b6f47c71013650625fd65ce61adcb5b2",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-d-"
+      },
+      "name": "tcplogical",
+      "from_id": "e5b1c7fcc1453c77b2f0388027659c6e",
+      "to_id": "1624c420083928ef3e240dd88f2e52f0",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
