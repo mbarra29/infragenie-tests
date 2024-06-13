@@ -1,0 +1,25 @@
+{
+  "changes": [
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 610 80",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE POS 620 80",
+    "MOD 587516af1efac0b9293f31639c6c31f3 NODE NAME Woof"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "1",
+      "name": "Woof",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          620,
+          80
+        ],
+        "size": [
+          220,
+          150
+        ]
+      }
+    }
+  }
+}
