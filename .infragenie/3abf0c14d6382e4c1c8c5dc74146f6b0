@@ -1,0 +1,83 @@
+{
+  "changes": [
+    "MOD 21232f297a57a5a743894a0e4a801fc3 CLOUD POS 150 60"
+  ],
+  "snapshots": {
+    "21232f297a57a5a743894a0e4a801fc3": {
+      "id": "21232f297a57a5a743894a0e4a801fc3",
+      "parent_id": "1",
+      "name": "admin",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "cb6c9b715a721866add7984bc5404548",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "39e6e93fad157a35615f180b67d19277",
+              "parent_id": "cb6c9b715a721866add7984bc5404548",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "attachable",
+              "value": "True",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "870146b732383a757419166d554aee09",
+          "parent_id": "21232f297a57a5a743894a0e4a801fc3",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "labels",
+          "properties": [
+            {
+              "id": "c4ddb30cfa07c1ec17ad7c168f339b58",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.description",
+              "value": "Financial transaction network",
+              "visible": true
+            },
+            {
+              "id": "2f48386f86f62d4144ba05770b3492e8",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.department",
+              "value": "Finance",
+              "visible": true
+            },
+            {
+              "id": "8067feae4c234f4658ba8b7a2f808039",
+              "parent_id": "870146b732383a757419166d554aee09",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "com.example.label-with-empty-value",
+              "value": "",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "admin",
+      "lite_node": true,
+      "extra_properties": {
+        "position": [
+          150,
+          60
+        ]
+      }
+    }
+  }
+}
