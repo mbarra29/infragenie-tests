@@ -1,0 +1,20 @@
+{
+  "changes": [
+    "MOD eec695b1c6be435e7982afe506db7e49 ARTIFACT POS 560 620",
+    "MOD eec695b1c6be435e7982afe506db7e49 ARTIFACT NAME ./groa"
+  ],
+  "snapshots": {
+    "eec695b1c6be435e7982afe506db7e49": {
+      "id": "eec695b1c6be435e7982afe506db7e49",
+      "parent_id": "1",
+      "name": "./groa",
+      "type": "artifact",
+      "extra_properties": {
+        "position": [
+          560,
+          620
+        ]
+      }
+    }
+  }
+}
