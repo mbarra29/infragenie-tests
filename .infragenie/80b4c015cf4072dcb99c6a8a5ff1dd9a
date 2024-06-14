@@ -1,0 +1,69 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "2a4ddbecb762532586835d0f37d85eaf",
+    "ca625ae68e4d4a58f9ba859ff3420557"
+  ],
+  "snapshots": {
+    "2a4ddbecb762532586835d0f37d85eaf": {
+      "id": "2a4ddbecb762532586835d0f37d85eaf",
+      "parent_id": "f190fccbeb3079aaade31d63a8385637",
+      "extra_properties": {},
+      "name": "./PROM",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "extra_properties": {},
+      "name": "Grafa",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "extra_properties": {},
+          "key": "image",
+          "value": "grafana/grafana",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "extra_properties": {},
+          "key": "restart",
+          "value": "unless-stopped",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "extra_properties": {},
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "extra_properties": {},
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        }
+      ],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
