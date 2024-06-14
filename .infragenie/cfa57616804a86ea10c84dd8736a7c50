@@ -1,0 +1,97 @@
+{
+  "changes": [
+    "ADD 3a39d1da323897035be984ae195f93e3 1 CLOUD",
+    "MOD 3a39d1da323897035be984ae195f93e3 CLOUD POS 260 170",
+    "ADD 6c79e44cf50c5416dca8a9cee832b6b0 1 CONNECTION",
+    "MOD 6c79e44cf50c5416dca8a9cee832b6b0 CONNECTION SRC_CHANGE d9c0e52dd15274d51041b489c7cea0ad",
+    "MOD 6c79e44cf50c5416dca8a9cee832b6b0 CONNECTION TGT_CHANGE 21232f297a57a5a743894a0e4a801fc3",
+    "MOD ca625ae68e4d4a58f9ba859ff3420557 COMPONENT NAME MatildeQualquer",
+    "DEL d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD",
+    "DEL e8c6f16535af2151fe3efd2b9910b0b2 CONNECTION"
+  ],
+  "snapshots": {
+    "3a39d1da323897035be984ae195f93e3": {
+      "id": "3a39d1da323897035be984ae195f93e3",
+      "parent_id": "1",
+      "name": "Cloud",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {
+        "position": [
+          260,
+          170
+        ]
+      }
+    },
+    "6c79e44cf50c5416dca8a9cee832b6b0": {
+      "id": "6c79e44cf50c5416dca8a9cee832b6b0",
+      "parent_id": "1",
+      "from_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "to_id": "21232f297a57a5a743894a0e4a801fc3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "MatildeQualquer",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    }
+  }
+}
