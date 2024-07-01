@@ -1,0 +1,17 @@
+{
+  "changes": [
+    "ADD 931717ca19c1a8cae402e24928bc63ac 1 CLOUD"
+  ],
+  "snapshots": {
+    "931717ca19c1a8cae402e24928bc63ac": {
+      "id": "931717ca19c1a8cae402e24928bc63ac",
+      "parent_id": "1",
+      "name": "newCloud",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {}
+    }
+  }
+}
